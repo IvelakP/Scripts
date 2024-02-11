@@ -1,0 +1,12 @@
+# Ignore all .exe files
+*.exe
+
+# Ignore directories
+executables/
+
+# Ignore subdirectories
+ProductReader/Asemat/
+Converting/Data/
+ReceiptReading/Archive
+ReceiptReading/Data
+ReceiptReading/DataOld
