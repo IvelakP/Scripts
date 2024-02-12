@@ -1,6 +1,15 @@
 # Ignore all .exe files
 *.exe
 
+# ignore all config files
+*.cfg
+*.conf
+*.ini
+*.json
+*.xml
+*.yaml
+*.yml
+
 # Ignore directories
 executables/
 
@@ -10,3 +19,7 @@ Converting/Data/
 ReceiptReading/Archive
 ReceiptReading/Data
 ReceiptReading/DataOld
+
+# Ignore for YoutubeDownloader
+YoutubeDownloader/
+!YoutubeDownloader/Downloader.py
