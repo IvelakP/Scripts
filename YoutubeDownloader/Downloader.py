@@ -89,4 +89,3 @@ class YoutubeDownloaderApp(ctk.CTk):
 
 if __name__ == "__main__":
     app = YoutubeDownloaderApp()
-
