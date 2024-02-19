@@ -2,17 +2,17 @@
 
 ## The idea of this repo is to store small scripts for varoius problems. Every script will have its own ReadMe and technical documentation added later on, and this ReadMe only tells the reader what problem every script is trying to solve and also how I came up with the idea.
 
-### ChromeDriver BAD NAMING CHANGE THIS!
+### FileScraping
 
-### Converting BAD NAMING CHANGE THIS!
+I had bunch of files that I needed read data from.
+
+``ReceiptReader`` reads data from text files (Use "PDFtoText.py" to convert PDFs to text files before using).
+
+``ProducReader`` reads data from JSON files.
 
 ### PictureSorting
 
 I had old memory card full of pictures and it would have been pain to go through all of them one by one. So this script opens the images in said folder one-by-one, asks if they should be renamed and saved, skipped or deleted.
-
-### ProductReader
-
-### ReceiptReading
 
 ### YoutubeDownloader
 

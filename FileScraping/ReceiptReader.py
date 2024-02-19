@@ -1,6 +1,6 @@
-#   Author:         Paavo Mäkelä / Cromsoft Oy
+#   Author:         Paavo Mäkelä
 #   File:           ReceiptReader.py
-#   Description:    Simple program that reads Deltaco receipts and gathers all useful information from those. The PDFs need to be converted in .txt file with 'PDFtoText.py' code
+#   Description:    Simple program that reads receipts and gathers all useful information from those. The PDFs need to be converted in .txt file with 'PDFtoText.py' code
 
 # For now the final working version, with EAN capabilities.
 # TODO Check for dublicates and do something for them, check for missing EAN Codes and warn about those.
@@ -11,7 +11,7 @@ import os
 
 # Define the regular expression patterns
 pattern = r'^(.*?)\s{3,}(.*?),?\s+(\d+,\d{2})\s+(\d+,\d{2})\s+(\d+)\s+(\d+)\s+(\d+,\d{2})$'
-regex = r"^( {35}(?![ ])(?!.*Rahti).*)$"
+regex = r"^( {35}(?![ ])(?!.*Rahti).*)$" #Continuation pattern for description field
 ean_pattern = r'\b\d{13}\b|\b\d{12}\b'  # Updated EAN regex pattern
 
 
