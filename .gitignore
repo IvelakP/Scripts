@@ -13,14 +13,13 @@
 # Ignore directories
 executables/
 
-# Ignore subdirectories
-ProductReader/Asemat/
-Converting/Data/
-ReceiptReading/Archive
-ReceiptReading/Data
-ReceiptReading/DataOld
+# Ignore for "FileScraping"
+FileScraping/Asemat/
+FileScraping/Data/
+FileScraping/Archive/
+FileScraping/DataOld/
 
-# Ignore for YoutubeDownloader
+# Ignore for "YoutubeDownloader"
 YoutubeDownloader/
 !YoutubeDownloader/Downloader.py
 !YoutubeDownloader/requirements.txt
